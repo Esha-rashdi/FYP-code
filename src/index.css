@@ -1,0 +1,149 @@
+:root {
+  --primary-400: #080808;
+  --primary-300: #0d0d0d;
+  --primary-200: #737373;
+  --primary-100: #e7e7e7;
+  --primary-50: #f7f7f7;
+
+  --secondary-300: #b4ff05;
+  --secondary-200: #7fb108;
+  --secondary-100: #aad9d1;
+
+  --accent: #efece6;
+
+  --gradient-bg: rgb(1, 115, 115);
+  --gradient: linear-gradient(
+    25deg,
+    rgb(162, 236, 16) 0%,
+    rgb(239, 255, 201) 100%
+  );
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--primary-400);
+}
+
+.text-large {
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-reg {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-med {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.text-small {
+  font-family: "DM Sans";
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0px;
+}
+
+.text-tiny {
+  font-family: "DM Sans";
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.h1 {
+  font-family: "DM Sans";
+  font-size: 56px;
+  line-height: 106%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h2 {
+  font-family: "DM Sans";
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+
+.h3 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}
+
+.h5 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: -0.64px;
+  margin: 0px;
+}
+
+
+
+/* Container styling for the form */
+.form-container {
+  background-color: var(--primary-300);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Form layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Group styling for input fields and labels */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* Input field styling */
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--primary-200);
+  border-radius: 4px;
+}
+
+/* Submit button styling */
+.button {
+  background-color: var(--secondary-200);
+  color: var(--primary-50);
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--secondary-300);
+}
+
